@@ -1,0 +1,24 @@
+﻿  Source.cpp
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(16): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+  d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(39): note: выполняется компиляция ссылки на экземпляр шаблон класс "Deque<T>"
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(20): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(21): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(22): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(23): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(24): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(25): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(26): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(146): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(163): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(181): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(197): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(214): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(231): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(239): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(248): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(65): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(57): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\source.cpp(81): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Deque<int>::bubbleSort(bool)"
+  d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\source.cpp(23): note: выполняется компиляция ссылки на экземпляр шаблон класс "Deque<int>"
+d:\artyom\visual studia projects\my_oop_2_1_exceptions\my_oop_2_1_exceptions\deque.h(68): warning C4018: <: несоответствие типов со знаком и без знака
+  MY_OOP_2_1_Exceptions.vcxproj -> D:\Artyom\VISUAL STUDIA PROJECTS\MY_OOP_2_1_Exceptions\Debug\MY_OOP_2_1_Exceptions.exe
