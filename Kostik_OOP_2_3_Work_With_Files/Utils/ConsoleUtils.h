@@ -1,0 +1,45 @@
+#pragma once
+
+#include <string>
+#include <iostream>
+
+namespace OOPLSS {
+	namespace Utils {
+		std::string readString(std::string msg) {
+			std::string value;
+			std::cout << msg;
+			std::cin.ignore();
+			std::getline(std::cin, value);
+
+			return value;
+		}
+		
+		template<class T>
+		T readValue(std::string msg) {
+			T value;
+
+			std::cout << msg;
+
+			while ((!(std::cin >> value)) || (std::cin.peek() != '\n')) {
+				std::cout << "Entered value is not valid. Please, try again: ";
+				std::cin.clear();
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+			}
+
+			return value;
+		}
+
+		template <class T>
+		T readWithCheck(std::string msg, T min) {
+			T res = readValue<T>(msg);
+
+			while (res < min)
+			{
+				std::cout << "Enter value greather " << min << std::endl;
+				res = readValue<T>(msg);
+			}
+
+			return res;
+		}
+	}
+}

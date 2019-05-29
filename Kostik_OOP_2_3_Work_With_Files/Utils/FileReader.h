@@ -1,0 +1,32 @@
+
+#pragma once
+
+#include <string>
+#include <fstream>
+
+namespace OOPLSS {
+	namespace Utils {
+		template <class T>
+		class FileReader
+		{
+		private:
+			std::string path;
+
+		public:
+			FileReader(std::string path) : path(path){
+			}
+			~FileReader() {
+			}
+			T* read() {
+				T* obj = new T();;
+				std::ifstream file;
+
+				file.open(this->path, std::ios::binary|std::ios::in);
+				file.read((char*)&(*obj), sizeof(T));
+				file.close();
+
+				return obj;
+			}
+		};
+	}
+}
